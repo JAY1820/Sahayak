@@ -70,3 +70,9 @@ This README provides an overview of key features, actors, and development guidel
 ## Development Guidelines
 - Collect and arrange code in a structured manner.
 - Implement proper error handling and security measures.
+
+## How to start the project
+- Clone the repository
+- Run `npm install` to install all the dependencies
+- Run `npm start` to start the project
+- Open `http://localhost:5173/` in your browser to view the project
