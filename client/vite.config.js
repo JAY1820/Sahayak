@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-responsive-carousel'],
+      external: ['react-responsive-carousel', 'react-responsive-carousel/lib/styles/carousel.min.css'],
     },
   },
 });
