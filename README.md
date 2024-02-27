@@ -70,5 +70,3 @@ This README provides an overview of key features, actors, and development guidel
 ## Development Guidelines
 - Collect and arrange code in a structured manner.
 - Implement proper error handling and security measures.
-
-
