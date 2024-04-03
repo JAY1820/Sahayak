@@ -17,7 +17,7 @@ This README provides an overview of key features, actors, and development guidel
   - Manage monthly maintenance fine and rent
   - Update rent status
   - Send notices regarding rent status
-
+y
 ### Password Complexity
 - **Agent, Secretary, Students**
   - Implement strong password policies during signup and password reset
@@ -71,7 +71,10 @@ This README provides an overview of key features, actors, and development guidel
 - Collect and arrange code in a structured manner.
 - Implement proper error handling and security measures.
 
-
-## how to start
+## How to start the project
+- Clone the repository
+- Run `npm install` to install all the dependencies
+- Run `npm start` to start the project
+- Open `http://localhost:5173/` in your browser to view the project## how to start
 - npm i
 - npm run start

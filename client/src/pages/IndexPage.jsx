@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { UserContext } from "../../UserContext";
 import Loader from "../components/Loader";
 
-import index from "../assets/Index.jpg";
+import index from "../assets/index1.png";
 import Header from "../components/Header";
 
 import HomePage from '../components/HomePage.jsx'; 
