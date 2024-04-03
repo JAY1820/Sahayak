@@ -54,9 +54,9 @@ This README provides an overview of key features, actors, and development guidel
 
 ### Students
 - View personal profiles
-- Check fee status
+- Check Rent status
 - Report problems
-- Signup with agent/rector approval
+- Signup with agent approval
 
 ## Login and Signup
 
@@ -72,3 +72,6 @@ This README provides an overview of key features, actors, and development guidel
 - Implement proper error handling and security measures.
 
 
+## how to start
+- npm i
+- npm run start

@@ -1,23 +1,32 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React, { useState } from 'react';
 import './HomePage.css';
+import Home1 from '../assets/index1.png';
+import Home2 from '../assets/index2.png';
+import Aboutus from '../assets/about-us.png';
 
 const HomePage = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const images = [Home1, Home2];
+
+  const nextSlide = () => {
+    setCurrentSlide((currentSlide + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((currentSlide - 1 + images.length) % images.length);
+  };
+
   return (
     <div>
-      <Carousel>
-        <div>
-          <img src="https://i.postimg.cc/526GKmd9/Final-Index-1.png" alt="Slide 1" width="800" height="300" />
-        </div>
-        <div>
-          <img src="https://i.postimg.cc/Sx68hBpg/Final-Index-2-1.png" alt="Slide 2" width="800" height="300" />
-        </div>
-      </Carousel>
+      <div className="carousel">
+        <button className="carousel-button" onClick={prevSlide}>Prev</button>
+        <img className="carousel-image" src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
+        <button className="carousel-button" onClick={nextSlide}>Next</button>
+      </div>
 
       <section className="about-us">
         <div className="about">
-          <img src="https://i.postimg.cc/6qsPrQXw/about-us.png" className="pic" alt="About Us" width="800" height="400" />
+          <img src={Aboutus} className="pic" alt="About Us" />
           <div className="text">
             <h2>About Us</h2>
             <h5>Website  <span>Developer</span></h5>
