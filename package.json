@@ -1,5 +1,5 @@
 {
-  "name": "hostelmanagement",
+  "name": "sahayak",
   "version": "1.0.0",
   "description": "=> USECASES",
   "scripts": {
@@ -15,5 +15,8 @@
     "caniuse-lite": "^1.0.30001584",
     "concurrently": "^8.2.0",
     "react-bootstrap": "^2.10.1"
+  },
+  "devDependencies": {
+    "vite": "^2.7.0"
   }
 }
